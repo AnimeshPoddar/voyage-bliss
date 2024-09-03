@@ -1,13 +1,14 @@
 import React, { useState } from "react";
-import "./navbar.style.css";
 import { Link } from "react-router-dom";
+
+import "./navbar.style.css";
+
 export const Navbar = () => {
   const [drawerOpen, setDrawerOpen] = useState(false);
 
   return (
     <nav className="navbar">
-        <h1 className="site-icon">Voyage Bliss</h1>
-
+      <h1 className="site-icon">Voyage Bliss</h1>
       <div className="menu-icons">
         <i
           onClick={() => setDrawerOpen(!drawerOpen)}

@@ -12,12 +12,13 @@
   left: 50%;
   transform: translate(-50.5%);
   z-index: 9999;
+  background-color: #fff;
 }
 
 .site-icon {
   color: #222;
   font-size: 1.9rem;
-  cursor: pointer; 
+  cursor: pointer;
   align-content: center;
 }
 
@@ -98,7 +99,7 @@
     text-align: center;
     background-color: #fff;
     transition: 0.2s ease-in-out;
-    border-radius: 13px ;
+    border-radius: 13px;
   }
 
   .navbar-links.active {
