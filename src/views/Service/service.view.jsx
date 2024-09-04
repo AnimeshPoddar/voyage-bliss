@@ -1,5 +1,6 @@
 import React from "react";
 import { HeroSection } from "../../components/Hero-Section/hero-section.component";
+import { Trips } from "../../components/Trips/trips.component";
 
 export const Service = () => {
   return (
@@ -11,6 +12,7 @@ export const Service = () => {
         heroImage={"2.jpg"}
         heroTitle={"Your Next Great Escape Awaits"}
       />
+      <Trips />
     </>
   );
 };

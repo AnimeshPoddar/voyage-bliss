@@ -5,8 +5,10 @@
 
 .trips h1 {
   text-align: center;
-
   font-size: 3rem;
+}
+.trips p {
+  text-align: center;
 }
 
 .trip-cards-container {
@@ -54,7 +56,7 @@
     flex-direction: column;
   }
 
-  .trip-card{
+  .trip-card {
     width: 100%;
     margin-bottom: 1.5rem;
   }
