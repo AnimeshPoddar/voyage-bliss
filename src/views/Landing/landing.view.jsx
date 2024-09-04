@@ -10,7 +10,7 @@ export const Landing = () => {
         buttonLabel={"Travel Plan"}
         cName={"hero-section"}
         description={"Choose your destination."}
-        heroImage={"1.jpg"}
+        heroImage={"india-1.jpg"}
         heroTitle={"Your Next Great Escape Awaits"}
         heroUrl={"/"}
         buttonClassName={"hero-section-landing"}
