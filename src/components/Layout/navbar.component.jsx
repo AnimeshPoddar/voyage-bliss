@@ -44,7 +44,7 @@ export const Navbar = () => {
             <i className="fa-regular fa-id-badge"></i>Sign Up
           </Link>
         </li>
-        <button className="sign-up-button">Sign Up</button>
+        {/* <button className="sign-up-button">Sign Up</button> */}
       </ul>
     </nav>
   );
