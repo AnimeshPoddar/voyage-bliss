@@ -1,5 +1,6 @@
 import React from "react";
 import { HeroSection } from "../../components/Hero-Section/hero-section.component";
+import { Destination } from "../../components";
 
 export const Landing = () => {
   return (
@@ -13,6 +14,7 @@ export const Landing = () => {
         heroUrl={"/"}
         buttonClassName={"hero-section-landing"}
       />
+      <Destination/>
     </div>
   );
 };
