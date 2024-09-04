@@ -1,6 +1,7 @@
 import React from "react";
 import { HeroSection } from "../../components/Hero-Section/hero-section.component";
 import { Destination } from "../../components";
+import { Trips } from "../../components";
 
 export const Landing = () => {
   return (
@@ -15,6 +16,7 @@ export const Landing = () => {
         buttonClassName={"hero-section-landing"}
       />
       <Destination/>
+      <Trips/>
     </div>
   );
 };
