@@ -3,7 +3,7 @@ import React from "react";
 import "./trips.style.css";
 import { tripMockData } from "../../mocks/trips.mock";
 
-export const Trips = ({ description, title, image }) => {
+export const Trips = () => {
   return (
     <div className="trips">
       <h1>Our Recent Trips</h1>

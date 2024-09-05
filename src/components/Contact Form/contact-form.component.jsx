@@ -3,7 +3,6 @@ import React from "react";
 import "./contact-form.style.css";
 
 export const ContactForm = () => {
-
   return (
     <div className="contact-form-container">
       <h1>Send a message to us here!</h1>

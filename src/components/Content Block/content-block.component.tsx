@@ -1,6 +1,7 @@
 import React from "react";
 
 import "./content-block.style.css";
+
 export const ContentBlock = ({ description, title }) => {
   return (
     <div className="content-block-container">

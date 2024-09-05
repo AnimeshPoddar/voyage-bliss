@@ -1,6 +1,8 @@
 import React from "react";
+
 import "./destination.styles.css";
 import { destinationMockData } from "../../mocks";
+
 export const Destination = () => {
   return (
     <div className="destination">
@@ -34,7 +36,6 @@ export const Destination = () => {
           </div>
         );
       })}
-    
     </div>
   );
 };
