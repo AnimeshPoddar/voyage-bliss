@@ -8,13 +8,13 @@ export const tripMockData = [
   {
     title: "Dalhousie",
     description:
-      "Dalhousie is a popular hill station spread out over five hills in Himachal Pradesh boasting views of the snow-capped peaks of the Dhauladhar ranges. Famous for its meadows, dense forests, and waterfalls, it is especially a favourite amongst honeymooners and family vacationers.",
+      "In western Himachal Pradesh, the hill station of Dalhousie is full of old world charm and holds lingering echos of the Raj era. It covers an area of 14 sq. km. and is built on five hills – Kathlog, Patreyn, Tehra, Bakrota and Balun. It is named after the British governor General of the 19th century, Lord Dalhousie. The town’s average height is 2036 m, and is surrounded by varied vegetation – pines, deodars, oaks and flowering rhododendron. Dalhousie has charming colonial architecture, including some beautiful churches. Its location presents panoramic views of the plains and like a long silver line, the river Ravi twists and turns below Dalhousie. The spectacular snow-covered Pir Panjal Range of mountains in Jammu and Kashmir,Pangi Valley of Chamba and Sach Pass are also visible form this enchanting town.",
     image: "dalhousie.jpg",
   },
   {
     title: "Jodhpur",
     description:
-      "Jodhpur, fondly known as the 'Blue City' due to the indigo hues of its houses, is a historic city located in the heart of Rajasthan, India. Situated on the eastern edge of the Thar Desert, Jodhpur is renowned for its majestic Mehrangarh Fort, one of the largest forts in India, offering panoramic views of the city's azure skyline.",
+      "Jodhpur, formerly known as Marwar, the capital of the Rajput rulers, was founded in 1459 A.D by the Rathore rulers. The City has a rich heritage of traditions and culture followed till date. Located on the western side of the capital city of Jaipur, this city is the second largest city in the state of Rajasthan. Being a place of princely palaces, magnificent forts as well as age old temples, Jodhpur is amongst famous tourist destinations in the state as well as India. Positioned in the Thar Desert's stark landscape, Jodhpur experiences a bright and sunny weather all through the year hence the name 'Sun City'. The houses near the fort of Mehrangarh are painted in blue color, due to which the city is also known as the 'Blue City'.",
     image: "jodhpur.jpg",
   },
 ];

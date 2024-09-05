@@ -7,7 +7,7 @@ export const Trips = ({ description, title, image }) => {
   return (
     <div className="trips">
       <h1>Recent Trips</h1>
-      <p>Discover some unique destinations</p>
+      <p className="sub-heading">Discover some unique destinations</p>
       <div className="trip-cards-container">
         {tripMockData.map((trip, index) => {
           return (

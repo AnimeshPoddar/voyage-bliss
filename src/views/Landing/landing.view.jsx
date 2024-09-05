@@ -1,9 +1,12 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { HeroSection } from "../../components/Hero-Section/hero-section.component";
 import { Destination } from "../../components";
 import { Trips } from "../../components";
 
 export const Landing = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div>
       <HeroSection
@@ -15,8 +18,8 @@ export const Landing = () => {
         heroUrl={"/"}
         buttonClassName={"hero-section-landing"}
       />
-      <Destination/>
-      <Trips/>
+      <Destination />
+      <Trips />
     </div>
   );
 };

@@ -7,7 +7,7 @@
   text-align: center;
   font-size: 3rem;
 }
-.trips p {
+.sub-heading {
   text-align: center;
 }
 
@@ -31,7 +31,7 @@
   padding: 0.9rem 0 0.2rem 0;
 }
 .card-image {
-  height: 200px;
+  height: 250px;
   overflow: hidden;
   border: 7px;
 }

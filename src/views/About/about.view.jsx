@@ -1,35 +1,37 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { HeroSection } from "../../components/Hero-Section/hero-section.component";
 import { ContentBlock } from "../../components";
 
 export const About = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div>
       <HeroSection
-        buttonLabel={"Travel Plan"}
         cName={"hero-section-mid"}
-        description={"Choose your destination."}
-        heroImage={"2.jpg"}
-        heroTitle={"Your Next Great Escape Awaits"}
+        heroImage={"about-us.jpg"}
+        heroTitle={"Get to know about us."}
       />
 
       <ContentBlock
-        title={"About Us"}
+        title={"What We Offer"}
         description={
-          "Welcome to Voyage Bliss, your ultimate guide to discovering the world's most incredible destinations. Whether you're a seasoned traveler or just beginning your journey, our mission is to inspire and equip you with all the information you need to explore new places, immerse yourself in diverse cultures, and create unforgettable memories. At Voyage Bliss, we believe that travel is more than just visiting new locations; it's about experiencing the world in all its richness and variety. Our team of passionate travelers and experts work tirelessly to bring you carefully curated guides, insider tips, and detailed itineraries that cater to every type of traveler. From hidden gems off the beaten path to iconic landmarks, we've got you covered."
+          "From detailed travel guides and itineraries to expert tips and recommendations, Voyage Bliss is your one-stop resource for all things travel. Whether you're planning your next vacation or just dreaming of future adventures, our content is designed to inspire and inform."
         }
       />
 
       <ContentBlock
-        title={"About Us"}
+        title={"Our Story"}
         description={
-          "Welcome to Voyage Bliss, your ultimate guide to discovering the world's most incredible destinations. Whether you're a seasoned traveler or just beginning your journey, our mission is to inspire and equip you with all the information you need to explore new places, immerse yourself in diverse cultures, and create unforgettable memories. At Voyage Bliss, we believe that travel is more than just visiting new locations; it's about experiencing the world in all its richness and variety. Our team of passionate travelers and experts work tirelessly to bring you carefully curated guides, insider tips, and detailed itineraries that cater to every type of traveler. From hidden gems off the beaten path to iconic landmarks, we've got you covered."
+          "Voyge Bliss was born out of a shared love for exploration and a desire to help others see the world through new eyes. What started as a passion project has grown into a thriving community of travelers who trust us to guide their journeys."
         }
       />
       <ContentBlock
-        title={"About Us"}
+        title={"Join Our Community"}
         description={
-          "Welcome to Voyage Bliss, your ultimate guide to discovering the world's most incredible destinations. Whether you're a seasoned traveler or just beginning your journey, our mission is to inspire and equip you with all the information you need to explore new places, immerse yourself in diverse cultures, and create unforgettable memories. At Voyage Bliss, we believe that travel is more than just visiting new locations; it's about experiencing the world in all its richness and variety. Our team of passionate travelers and experts work tirelessly to bring you carefully curated guides, insider tips, and detailed itineraries that cater to every type of traveler. From hidden gems off the beaten path to iconic landmarks, we've got you covered."
+          "Travel is better when shared. Join our community of like-minded explorers to exchange tips, share your own travel stories, and stay up-to-date with the latest travel trends and news. Let's inspire each other to see more of the world!"
         }
       />
     </div>
