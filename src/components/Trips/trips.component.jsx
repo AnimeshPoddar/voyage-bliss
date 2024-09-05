@@ -6,7 +6,7 @@ import { tripMockData } from "../../mocks/trips.mock";
 export const Trips = ({ description, title, image }) => {
   return (
     <div className="trips">
-      <h1>Recent Trips</h1>
+      <h1>Our Recent Trips</h1>
       <p className="sub-heading">Discover some unique destinations</p>
       <div className="trip-cards-container">
         {tripMockData.map((trip, index) => {

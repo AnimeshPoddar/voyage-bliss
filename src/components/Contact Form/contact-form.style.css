@@ -10,6 +10,10 @@
   margin: auto;
 }
 
+.contact-form-container h1 {
+  text-align: center;
+}
+
 .contact-form-container input {
   height: 3rem;
   padding: 0 1rem;
